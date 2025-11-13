@@ -20,9 +20,9 @@
 <body>
   <div>
     <div class="wrapper">
-      <h1 style="font-family: &#39;Lato&#39;, sans-serif;">Your Title Here</h1>
-      <h4 style="font-family: &#39;Lato&#39;, sans-serif; ">Fall 2024 CSCI 5541 NLP: Class Project - University of Minnesota</h4>
-      <h4 style="font-family: &#39;Lato&#39;, sans-serif; ">Team Name</h4>
+      <h1 style="font-family: &#39;Lato&#39;, sans-serif;">What If?</h1>
+      <h4 style="font-family: &#39;Lato&#39;, sans-serif; ">Fall 2025 CSCI 5541 NLP: Class Project - University of Minnesota</h4>
+      <h4 style="font-family: &#39;Lato&#39;, sans-serif; ">It's NLPeak</h4>
 
       <div class="authors-wrapper">
         
@@ -35,7 +35,7 @@
           </div>
           <p>
                         
-              Member 1
+              Riandy Setiadi
             
           </p>
         </div>
@@ -48,7 +48,7 @@
           </div>
           <p>
             
-            Member 2
+            Rohan Cherukuri
             
           </p>
         </div>
@@ -60,7 +60,7 @@
             
           </div>
           <p>
-              Member 3
+              Stefan Hermann
           </p>
         </div>
         
@@ -71,7 +71,7 @@
             
           </div>
           <p>
-            Member 4
+            Matt He
           </p>
         </div>
         
@@ -84,7 +84,7 @@
           <!-- Github link -->
           <span class="link-block">
             <a
-              href=""
+              href="https://github.com/greenden007/what-if"
               target="_blank"
               class="external-link button is-normal is-rounded is-dark is-outlined"
             >
@@ -93,7 +93,7 @@
           </span>
           <span class="link-block">
             <a
-              href=""
+              href="https://github.com/greenden007/what-if"
               target="_blank"
               class="external-link button is-normal is-rounded is-dark is-outlined"
             >
@@ -102,7 +102,7 @@
           </span>      
           <span class="link-block">
             <a
-              href=""
+              href="https://github.com/greenden007/what-if"
               target="_blank"
               class="external-link button is-normal is-rounded is-dark is-outlined"
             >
@@ -129,7 +129,8 @@
     
     <h2 id="abstract">Abstract</h2>
 
-<p>One or two sentences on the motivation behind the problem you are solving. One or two sentences describing the approach you took. One or two sentences on the main result you obtained.</p>
+<!-- <p>One or two sentences on the motivation behind the problem you are solving. One or two sentences describing the approach you took. One or two sentences on the main result you obtained.</p> -->
+    <p>Character consistenncy is a fundamental aspect of good storytelling, yet scriptwriters often stuggle to maintain coherent personlity trains along long narritives. And while recent advances in LLMs have shown good text generation capabilities, they are still lacking when it comes to character personality traits. To address this, our project explores wheter transformer-based models can modify existing film dialogue to shift personality archetypes while preseving narritive choherence. We propose a two-stage framework: a classification model that learns personality representations from dialouge, and a generation module that conditions text rewriting on target archetypes. As we are still in progress, we do not have any current results. </p>
 
 <hr>
 
@@ -152,21 +153,21 @@
 <b>What did you try to do? What problem did you try to solve? Articulate your objectives using absolutely no jargon.</b>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We set out to explore whether language models can understand and modify the archtypes of characters in dialogue. Our goal was to develop a model that could take an existing script and adjust a character's archetype without breaking the flow of the story. Either for character consistency or for imagining new archtypes like if in Finding Nemo, Dory was smart.
 </p>
 
 <p>
 <b>How is it done today, and what are the limits of current practice?</b>
 </p>
 <p>
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Today, most personality-adaptive models focus on broad emotional tone or sentiment rather than story-specific archtypes. Additionally, most systems generate text from scratch instead of modifying existing content, which makes emantic presevation difficult.
 <p>
 
 <p>
 <b>Who cares? If you are successful, what difference will it make?</b>
 </p>
 <p>
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+If successful, this sytem could become a powerful creative tool for writers and educators. It would allow authors to explore how stories change when characters personalities shift, and could also be a tool for adapting things like tutors or virtual agents and adjusting their persona to better engage different audiences.
 </p>
 
 <hr>
@@ -178,7 +179,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 </p>
 
 <p>
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Our approach consists of two stages. In Stage 1, we fine-tune a RoBERTa-based classifier to predict personality archetype of a dialogue. In Stage 2, we use the learned personality vectors from Stage 1 to condition text generation.
 </p>
 
 <p>
@@ -186,7 +187,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 </p>
 
 <p>
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+Some problems that we have encountered include the evaluation portion. How do we tell if the narrative of the story is the same?  How do we tell if the new dialogue is actually of a new archtype?
 </p>
 
 <hr>
